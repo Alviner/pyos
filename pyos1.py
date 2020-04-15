@@ -13,6 +13,7 @@ class Task:
         self.sendval = None
 
     def run(self):
+        import pdb; pdb.set_trace()  # XXX BREAKPOINT
         return self.target.send(self.sendval)
 
 
